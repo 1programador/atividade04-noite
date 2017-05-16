@@ -1,0 +1,7 @@
+create table itemPedido (
+    id_produto int,
+    id_pedido int,
+    id int, 
+	precoUnitario double(6,2), 
+    quantidade int,
+	precoTotal double(6,2));
