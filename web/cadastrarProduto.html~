@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head> <meta charset="utf-8">
+<title>Cadastrar Produto</title>
+</head>
+
+<body>
+
+<h1>Cadastrar Produto</h1>
+
+<form method="POST" action="">
+<table>
+
+<tr>
+<td>Título: </td><td><input type="text" name="titulo" required></td>
+</tr>
+
+<tr>
+<td>Preço: </td><td><input type="text" name="preco" required></td>
+</tr>
+
+<tr>
+<td>Imagem: </td><td><input type="file" name="imagem" required></td>
+</tr>
+
+<tr>
+<td>Descricao: </td><td><textarea rows="4" cols="20"></textarea></td>
+</tr>
+
+<tr>
+<td><input type="submit" value="Enviar"></td><td></td>
+</tr>
+
+</table>
+
+</body>
+
+</html>
