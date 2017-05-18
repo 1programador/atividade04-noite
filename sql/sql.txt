@@ -1,0 +1,1 @@
+create table pedido(id integer, data_pedido data, valorTotal double, foreign key(id_cliente)); 
